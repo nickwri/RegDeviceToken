@@ -15,6 +15,7 @@ package test.nick.rpl.testclientgcm;
  * limitations under the License.
  */
 
+
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
@@ -45,11 +46,11 @@ public class MyGcmListenerService extends GcmListenerService {
         Log.d(TAG, "From: " + from);
         Log.d(TAG, "Message: " + message);
 
-        if (from.startsWith("/topics/")) {
-            // message received from some topic.
-        } else {
-            // normal downstream message.
-        }
+//        if (from.startsWith("/topics/")) {
+//            // message received from some topic.
+//        } else {
+//            // normal downstream message.
+//        }
 
         // [START_EXCLUDE]
         /**
